@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Aroa Alvite Rodríguez">
+  <meta name="description" content="Portafolio de desarrollo web de Lisa Simpson">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Lisa Simpson</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/img1.jpg">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <h3>LOS SIMPSONS</h3>
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#hero">Hero</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#episodios">Episodios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#personajes">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section id="hero" class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador" src="img/img2.jpg" alt="Foto de Lisa Simpson">
+      <h1 class="seccion-titulo">Lisa Marie Simpson</h1>
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-clara">
+    <div class="contenedor">
+      <h2 class="seccion-titulo1">¡Hola a todos!</h2>
+      <p class="seccion-texto">Soy Lisa Simpson, la inteligente y perspicaz miembro de la familia
+        Simpson. Mi papel en la serie de animación "Los Simpson" es ser la voz de la razón y la conciencia ética en
+        medio del caos familiar.
+        <br>
+        Mi personalidad se caracteriza por mi gran inteligencia, mi sensibilidad hacia los problemas sociales y mi
+        búsqueda constante de conocimiento y verdad. Aunque a veces puedo ser un poco seria o moralista, siempre tengo
+        buenas intenciones y un fuerte sentido del deber hacia los demás. ¡Únete a mí en mis aventuras intelectuales y
+        activistas en Springfield!
+      </p>
+      <dl class="seccion-texto">
+        <dt class="subtitulo">Edad</dt>
+        <dd>Soy una niña prodigio de 8 años.</dd>
+        <dt class="subtitulo">Aficiones</dt>
+        <dd>Me encanta tocar el saxofón, leer libros, practicar yoga y abogar por causas sociales y medioambientales.
+        </dd>
+        <dt class="subtitulo">Oficio</dt>
+        <dd>Aunque soy joven, he mostrado interés en una variedad de campos, desde la ciencia hasta la política.</dd>
+        <dt class="subtitulo">Parientes</dt>
+        <dd>Soy la hija de Homer y Marge Simpson, y la hermana de Bart y Maggie Simpson.</dd>
+        <dt class="subtitulo">Amigos</dt>
+        <dd>Tengo varios amigos en la escuela, incluyendo a Milhouse Van Houten, Nelson Muntz y Ralph Wiggum, aunque a
+          veces me siento más cómoda con adultos que comparten mis intereses.</dd>
+        <dt class="subtitulo">Enemigos</dt>
+        <dd>No tengo enemigos específicos, pero a menudo me enfrento a la ignorancia y la injusticia.</dd>
+        <dt class="subtitulo">Estado civil</dt>
+        <dd>Soy soltera y demasiado joven para preocuparme por eso.</dd>
+      </dl>
+    </div>
+  </section>
+
+
+  <!-- Episodios -->
+  <section id="episodios" class="EpisodiosLisa">
+    <h1 class="seccion-titulo2">Episodios</h1>
+  </section>
+
+
+  <section class="episodios seccion-oscura">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img8.jpg" class="card-img-top" alt="Imagen del episodio 1">
+            <div class="card-body">
+              <h5 class="card-title">La depresión de Lisa<br>Temporada 1, Episodio 6</h5>
+              <p class="card-text">Lisa lucha contra la depresión mientras busca un sentido de propósito y conexión en
+                su vida.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img9.jpg" class="card-img-top" alt="Imagen del episodio 1">
+            <div class="card-body">
+              <h5 class="card-title">El sustituto de Lisa<br>Temporada 2, Episodio 19</h5>
+              <p class="card-text">Cuando la maestra de Lisa se enferma, es reemplazada por el Sr. Bergstrom, un maestro
+                sustituto carismático que captura el corazón de Lisa, quien se siente desatendida por su propio padre.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img10.jpg" class="card-img-top" alt="Imagen del episodio 2">
+            <div class="card-body">
+              <h5 class="card-title">Lisa la reina de la belleza<br>Temporada 4, Episodio 4</h5>
+              <p class="card-text">Lisa se ve envuelta en un concurso de belleza infantil, donde cuestiona las
+                expectativas de la sociedad sobre la apariencia física.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img11.jpg" class="card-img-top" alt="Imagen del episodio 3">
+            <div class="card-body">
+              <h5 class="card-title">Lisa contra Malibu Stacy<br>Temporada 5, Episodio 14</h5>
+              <p class="card-text">Lisa se convierte en una activista después de descubrir el mensaje sexista detrás de
+                su muñeca favorita, Malibu Stacy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img12.jpg" class="card-img-top" alt="Imagen del episodio 4">
+            <div class="card-body">
+              <h5 class="card-title">La rival de Lisa<br>Temporada 6, Episodio 2</h5>
+              <p class="card-text">Lisa se siente amenazada por la llegada de una nueva estudiante, Allison Taylor,
+                quien parece ser una genio como ella.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img13.jpg" class="card-img-top" alt="Imagen del episodio 5">
+            <div class="card-body">
+              <h5 class="card-title">La boda de Lisa<br>Temporada 6, Episodio 19</h5>
+              <p class="card-text">En este episodio futurista, Lisa tiene una visión de su futuro matrimonio con un
+                joven británico llamado Hugh Parkfield.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img14.jpg" class="card-img-top" alt="Imagen del episodio 6">
+            <div class="card-body">
+              <h5 class="card-title">Lisa la vegetariana<br>Temporada 7, Episodio 5</h5>
+              <p class="card-text">Después de hacer amistad con un cordero en una granja, Lisa decide convertirse en
+                vegetariana, causando una controversia familiar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img15.jpg" class="card-img-top" alt="Imagen del episodio 7">
+            <div class="card-body">
+              <h5 class="card-title">Verano de metro y medio<br>Temporada 7, Episodio 25</h5>
+              <p class="card-text">Durante unas vacaciones de verano en la playa, Lisa reinventa su imagen para ganar
+                popularidad entre sus compañeros de clase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img16.jpg" class="card-img-top" alt="Imagen del episodio 8">
+            <div class="card-body">
+              <h5 class="card-title">La cita de Lisa con la densidad<br>Temporada 8, Episodio 7</h5>
+              <p class="card-text">Lisa desarrolla un interés romántico en Nelson Muntz, pero descubre que las
+                relaciones pueden ser complicadas..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img17.jpg" class="card-img-top" alt="Imagen del episodio 9">
+            <div class="card-body">
+              <h5 class="card-title">El saxofón de Lisa<br>Temporada 9, Episodio 3</h5>
+              <p class="card-text">Lisa recuerda cómo obtuvo su primer saxofón, que desencadenó su pasión por la música.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img18.jpg" class="card-img-top" alt="Imagen del episodio 10">
+            <div class="card-body">
+              <h5 class="card-title">Lisa Simpson<br>Temporada 9, Episodio 17</h5>
+              <p class="card-text">Lisa teme que su inteligencia haya alcanzado su punto máximo después de descubrir que
+                todas las mujeres en la familia Simpson tienen un historial de inteligencia decreciente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="card">
+            <img src="img/img19.jpg" class="card-img-top" alt="Imagen del episodio 11">
+            <div class="card-body">
+              <h5 class="card-title">Bart contra Lisa contra el tercer Grado<br>Temporada 14, Episodio 3</h5>
+              <p class="card-text">Lisa y Bart compiten entre sí cuando Bart es relegado al tercer grado, y Lisa intenta
+                ayudarlo a adaptarse.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="personajes">
+    <section class="testimonios">
+      <h2 class="seccion-titulo3">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de otros personajes de la serie</h3>
+
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/img5.png" alt="Foto de Homer Simpson">
+              <div class="testimonio-info">
+                <p class="cliente">Homer Simpson</p>
+                <p class="cargo">Padre de Lisa Simpson</p>
+                <br>
+              </div>
+              <p class="testimonio-texto"><q>¡Lisa es la luz de mi vida! Su inteligencia y sensibilidad son
+                  verdaderamente inspiradoras.</q></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/img6.jpg" alt="Foto de Maggie Simpson">
+              <div class="testimonio-info">
+                <p class="cliente">Maggie Simpson</p>
+                <p class="cargo">Hermana pequeña de Lisa Simpson</p>
+                <br>
+              </div>
+              <p class="testimonio-texto"><q>Lisa es mi hermana mayor favorita. Siempre está dispuesta a ayudar y a
+                  enseñarme cosas nuevas.</q></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/img7.jpg" alt="Foto de Milhouse Van Houten">
+              <div class="testimonio-info">
+                <p class="cliente">Milhouse Van Houten</p>
+                <p class="cargo">Amigo de Lisa Simpson</p>
+              </div>
+              <br>
+              <p class="testimonio-texto"><q>Lisa es la persona más increíble que conozco. Su pasión por la justicia y
+                  la verdad es admirable.</q></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-clara">
+    <div class="container mt-5">
+      <h2 class="text-center mb-4 seccion-titulo4">Contacto</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form class="contacto-form">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="5" placeholder="Escriba su mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="img/img3.jpg" alt="Logo del portafolio de Lisa">
+    <p class="footer-texto text-center">Los Simpsons.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/TheSimpsons" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://es-la.facebook.com/TheSimpsons/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/thesimpsons/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@TheSimpsonsTheory" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-youtube"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Aroa Alvite Rodríguez 2ºSMRA &#169; <a href="https://github.com/aroalvite"><i
+          class="bi bi-github icono-naranja"></a></i>
+    </div>
+  </footer>
+</body>
+
+</html>

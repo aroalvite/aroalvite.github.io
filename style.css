@@ -1,0 +1,361 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-clara {
+  color: white;
+  background-color: #049DBF;
+}
+
+
+/* Barra de navegacion */
+
+.navbar {
+  padding: 2rem;
+  background-color: #f2B705;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* Seccion Hero */
+
+.seccion-titulo {
+  font-size: 43px;
+  padding: 15px 0;
+  font-family: "Caveat", cursive;
+}
+
+.hero {
+  min-height: 820px;
+  text-align: center;
+}
+
+.hero-principal {
+  margin-top: 100px;
+  padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 550px;
+  height: 400px;
+  margin: 10px;
+}
+
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 1000px;
+}
+
+.seccion-titulo1 {
+  font-size: 30px;
+  padding: 15px 0;
+  font-family: "Caveat", cursive;
+  margin-top: 80px;
+}
+
+.subtitulo {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 17px;
+}
+
+.seccion-texto {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+
+/* Episodios */
+
+.EpisodiosLisa {
+  height: 320px;
+  background-color: #f2B705;
+  color: black;
+}
+
+.seccion-oscura {
+  color: black;
+  background-color: #f2B705;
+}
+
+.seccion-titulo2 {
+  font-family: "Caveat", cursive;
+  font-size: 33px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-img-top {
+    height: 300px;
+  }
+}
+
+
+/* Testimonios */
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+  background-color: white;
+  color: black;
+  height: 750px;
+  text-align: center;
+}
+
+.seccion-titulo3 {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Caveat", cursive;
+  margin-top: 120px;
+}
+
+.seccion-descripcion {
+  font-size: 20px;
+  color: #584e4e;
+}
+
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio-imagen {
+  height: 180px;
+  width: 180px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  color: white;
+}
+
+
+/* Contacto */
+
+.seccion-titulo4 {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Caveat", cursive;
+  margin-top: 70px;
+}
+
+.contacto-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contacto .container {
+  max-width: 1100px;
+  height: 700px;
+  padding: 20px;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #f2B705;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: #f2B705;
+  color: black;
+  border: 2px solid #f2B705;
+}
+
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 570px;
+  margin-top: 60px;
+}
+
+.footer-logo {
+  height: 240px;
+  width: 240px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 26px;
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: black;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: #f2B705;
+  border: 2px solid black;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: white;
+}
+
+.icono-naranja {
+  color: #f2B705;
+}
+
+.derechos-de-autor {
+  font-size: 18px;
+  color: black;
+  padding: 20px;
+}
+
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 180px;
+    width: 180px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .episodios {
+    text-align: center;
+  }
+}
